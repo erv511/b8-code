@@ -1,0 +1,59 @@
+/* Selector por etiqueta */
+body {
+  background-color: red;
+}
+
+h4 {
+  color: blue;
+}
+
+/* p {
+  border-style: double;
+  border-width: 5px;
+  border-color: chartreuse;
+} */
+
+p {
+  border: double 5px greenyellow;
+}
+
+/* Selector por clase */
+
+.paragraph {
+  text-align: justify;
+  /* padding: 30px 50px 130px 10px; */
+
+  /* Arriba Abajo Atributo posición 1
+    Der Izq Atributo Posición 2
+*/
+
+  padding: 30px 100px;
+  /* padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 50px;
+16px = 1.6rem */
+
+  margin-top: 10px;
+  background-color: indigo;
+  color: white;
+  font-weight: 700;
+  width: 50%;
+  height: 250px;
+}
+
+.header2 {
+  border: solid 1px black;
+}
+
+/* Selector por id */
+
+#school-map {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.mapwrapper {
+  font-weight: 900;
+  font-size: 30px;
+  color: rgba(165, 42, 42, 0.822);
+}
